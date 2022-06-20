@@ -12,6 +12,7 @@ import F011 from './011_muchaspreguntas'
 import F012 from './012_correlacionycasualidad'
 import F013 from './013_evidenciaanecdotica'
 import F014 from './014_apleacionalapureza'
+import F015 from './015_sesgodelsuperviviente'
 
 
 const F = [
@@ -29,6 +30,7 @@ const F = [
   F012,
   F013,
   F014,
+  F015,
 ]
 
 export default F

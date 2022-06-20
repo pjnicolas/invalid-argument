@@ -10,7 +10,7 @@ const content = {
   `,
   examples: [
     {
-      body: `A ninguno de mis amigos le gusta el marisco, así que tiene que ser una comida que no le gusta a nadie.`,
+      body: `A ninguno de mis amigos le gusta el marisco, así que tiene que ser una comida que no le gusta a casi nadie.`,
     }, {
       body: `Esta compañía telefónica es muy buena, a mi me atendió una vez genial.`,
     }, {
