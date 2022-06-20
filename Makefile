@@ -6,11 +6,11 @@ install: node_modules package.json
 start:
 	docker-compose run --service-ports node npm run start
 
-.PHONY: dev
+.PHONY: build
 build:
 	docker-compose run --service-ports node npm run build
 
-.PHONY: dev
+.PHONY: test
 test:
 	docker-compose run --service-ports node npm run test
 
