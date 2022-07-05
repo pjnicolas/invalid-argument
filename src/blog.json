@@ -3,9 +3,9 @@
     "type": "fallacy",
     "title": "Falacia del hombre de paja",
     "date": "2022-07-04T11:33:00.000Z",
-    "description": "Se produce cuando alguien toma el argumento o el punto de otra persona, lo distorsiona o lo exagera de alguna manera extrema, y luego ataca la distorsión extrema, como si esa fuera realmente la afirmación que la primera persona está haciendo.\n\nhola holita",
+    "description": "Se produce cuando alguien toma el argumento o el punto de otra persona, lo distorsiona o lo exagera de alguna manera extrema, y luego ataca la distorsión extrema, como si esa fuera realmente la afirmación que la primera persona está haciendo.",
     "examples": [
-      "*Los ecologistas se preocupan más por el bienestar de los gusanos y lombrices que por el de las personas.*\n\nEsto es un ejemplo. Y esto sigue siendo el mismo ejemplo.",
+      "*Los ecologistas se preocupan más por el bienestar de los gusanos y lombrices que por el de las personas.*",
       "*La idea de dios es absurda. No puedo creer en un ser imaginario que vive en las nubes y se dedica a hacer magia.*"
     ]
   },
@@ -15,33 +15,34 @@
     "date": "2022-07-04T19:54:00.000Z",
     "description": "Consiste en dar por sentada la falsedad de una afirmación tomando como argumento quién es el emisor de esta.\n\nPara utilizar esta falacia se intenta desacreditar a la persona que defiende una postura señalando una característica o creencia impopular de esa persona, en vez de criticar el contenido del argumento que defiende la postura contraria.",
     "examples": [
-      "*A: El Estado no está garantizando las necesidades básicas de todos los individuos.<br>\nB: Usted nunca tuvo necesidades, no puede hablar sobre lo que hace el Estado.*\n\n### Hola caracola\n\nyeah",
-      "*A: Los triángulos tienen cuatro lados.<br>\nB: Tú no has estudiado geometría, así que no tienes razón.*"
+      "*A: Los triángulos tienen cuatro lados.<br>\nB: Tú no has estudiado geometría, así que no tienes razón.*\n\n## Explicación\n\nEl argumento no es incorrecto porque el primer orador no haya estudiado geometría. Eso es irrelevante, y no cambia la veracidad o falsedad del mismo. El argumento es incorrecto porque viola la definición matemática de \"triángulo\".",
+      "*A: El Estado no está garantizando las necesidades básicas de todos los individuos.<br>\nB: ¿Tú qué sabrás de lo que hace el Estado? Nunca has tenido necesidades.*"
     ]
   },
   {
     "type": "fallacy",
     "title": "Argumento ad populum",
     "date": "2022-07-04T20:10:00.000Z",
-    "description": "Es una falacia que implica responder a un argumento o a una afirmación refiriéndose a la supuesta opinión que de ello tiene la gente en general, en lugar de al argumento por sí mismo. Se suele tomar como que un argumento es válido solo porque mucha gente lo cree así.",
+    "description": "Implica responder a un argumento o a una afirmación refiriéndose a la supuesta opinión que de ello tiene la gente en general, en lugar de al argumento por sí mismo. Se suele tomar como que un argumento es válido solo porque mucha gente lo cree así.",
     "examples": [
-      "Los ciudadanos del país han votado a este representante, así que tiene que ser la mejor opción para el país."
+      "*Los ciudadanos del país han votado a este representante, así que tiene que ser la mejor opción para el país.*",
+      "*Voy a continuar mis estudios universitarios porque todo el mundo dice que es lo mejor para mí.*\n\n\n## Explicación\n\nQue todo el mundo lo diga no es un argumento válido para determinar que continuar tus estudios es la mejor opción. En este caso, debes argumentar qué razones has encontrado para tomar esa decisión, vengan o no de otras personas."
     ]
   },
   {
     "type": "bias",
     "title": "Sesgo del superviviente",
     "date": "2022-07-04T20:14:00.000Z",
-    "description": "El sesgo del superviviente o sesgo de supervivencia es la falacia lógica que consiste en concentrarse en las personas o cosas que superaron un proceso de selección pasando por alto a aquellas que no lo hicieron, típicamente por su falta de visibilidad. Esto puede conllevar a conclusiones falsas de muy diferentes formas.",
+    "description": "Consiste en concentrarse en las personas o cosas que superaron un proceso de selección pasando por alto a aquellas que no lo hicieron, típicamente por su falta de visibilidad. Esto puede conllevar a conclusiones falsas de muy diferentes formas.",
     "examples": [
-      "*Los aviones que vuelven de la guerra tienen muchos impactos de balas en las alas, y pocos impactos en el cuerpo. Está claro que hay que reforzar las alas, pues es donde el enemigo ataca.*\n\nLa realidad es que los aviones que consiguen volver es porque no son derribados, ya que afortunadamente solo han recibido impactos en las alas y no en el cuerpo, donde es más crítico. En realidad habría que\nreforzar el cuerpo, pues los aviones que reciben impactos ahí son los que no vuelven.",
-      "*He analizado los datos financieros de todas las empresas de la zona. Casi todas son excelentes, ¡hacer una empresa tiene que ser fácil y muy rentable!*\n\nLas empresas con malos datos financieros han acabado cerrando, así que fijarse solo en las empresas activas no es representativo de lo rentable que puede ser crear una empresa en general."
+      "*Los aviones que vuelven de la guerra tienen muchos impactos de balas en las alas, y pocos impactos en el cuerpo. Está claro que hay que reforzar las alas, pues es donde el enemigo ataca.*\n\n## Explicación\n\nLa realidad es que los aviones que consiguen volver es porque no son derribados, ya que afortunadamente solo han recibido impactos en las alas y no en el cuerpo, donde es más crítico. En realidad habría que\nreforzar el cuerpo, pues los aviones que reciben impactos ahí son los que no vuelven.",
+      "*He analizado los datos financieros de todas las empresas de la zona. Casi todas son excelentes, ¡hacer una empresa tiene que ser fácil y muy rentable!*\n\n## Explicación\n\nLas empresas con malos datos financieros han acabado cerrando, así que fijarse solo en las empresas activas no es representativo de lo rentable que puede ser crear una empresa en general."
     ]
   },
   {
     "type": "gedankenexperiment",
-    "title": "Omega",
+    "title": "La paradoja de Newcomb",
     "date": "2022-07-04T20:45:00.000Z",
-    "description": "Esto es una ejemplo de lo que podría ser un gedankenexperiments, ya que no tiene ejemplos. Esto es una ejemplo de lo que podría ser un gedankenexperiments, ya que no tiene ejemplos. Esto es una ejemplo de lo que podría ser un gedankenexperiments, ya que no tiene ejemplos. Esto es una ejemplo de lo que podría ser un gedankenexperiments, ya que no tiene ejemplos. Esto es una ejemplo de lo que podría ser un gedankenexperiments, ya que no tiene ejemplos. Esto es una ejemplo de lo que podría ser un gedankenexperiments, ya que no tiene ejemplos. Esto es una ejemplo de lo que podría ser un gedankenexperiments, ya que no tiene ejemplos."
+    "description": "Imagina a un alienígena superinteligente llamado Omega, el cual nunca se equivoca con sus predicciones. Este alienígena viene de un planeta con una tecnología muy superior a la nuestra, y sabes que ha predecido con éxito todas tus elecciones en el pasado. Nunca se ha equivocado ni en una sola predicción. También sabes que Omega ha predecido con éxito las elecciones de otras personas que, al igual que tú, se encontraban en la siguiente situación:\n\nTienes ante tí dos cajas: A y B. La caja A es transparente y contiene 1.000€. La caja B es opaca, y puede contener o 0€, o 1.000.000€. Puedes elegir llevarte las dos cajas, o solo llevarte la caja B.\n\nOmega decide cuanto dinero poner en la caja B. Si Omega cree que te vas a llevar las dos cajas, entonces pondrá 0€ en la caja B. Si Omega cree que solo te vas a llevar la caja B, entonces pondrá 1.000.000€ en la caja B.\n\nOmega hace su predicción, pone el dinero en la caja B (0€ o 1.000.000€), te presenta las dos cajas, y se marcha. Omega no te dice su predicción, y no puedes ver cuanto dinero ha metido Omega en la caja B.\n\n¿Qué haces? ¿Te llevas las dos cajas, o solo te llevas la caja B?\n\n## Argumento para solo escoger la caja B:\n\nSi Omega siempre tiene razón, entonces solo pondrá 1.000.000€ en la caja B si solo eliges la caja B. Ya que 1.000.000€ es mejor que 1.000€, escoger solo la caja B tiene más sentido ya que Omega siempre tiene razón. Así que deberías de escoger solo la caja B.\n\n## Argumento para coger ambas cajas:\n\nYa que Omega se ha ido, la cantidad de dinero que haya puesto en la caja B no va a cambiar según la decisión que hagas. Haya lo que haya en la caja B, siempre puedes conseguir otros 1.000€ si te llevas las dos cajas."
   }
 ]

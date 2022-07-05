@@ -21,9 +21,9 @@ const trTypeToText = {
 }
 
 const trTypeToColor = {
-  [EFallacyType.bias]: '#f0f0ff',
-  [EFallacyType.fallacy]: '#f0fff0',
-  [EFallacyType.gedankenexperiment]: '#fff0f0',
+  [EFallacyType.bias]: '#44a',
+  [EFallacyType.fallacy]: '#4a4',
+  [EFallacyType.gedankenexperiment]: '#a44',
 }
 
 const Fallacy: React.FC<IFallacyProps> = ({ title, description, quiz, examples, date, type }) => {
@@ -31,6 +31,7 @@ const Fallacy: React.FC<IFallacyProps> = ({ title, description, quiz, examples, 
 
   const typeText = trTypeToText[type];
   const typeColor = trTypeToColor[type];
+  const typeColorFaded = `${typeColor}8`;
 
   const randomQuiz = useMemo(() => {
     if (!quiz) {
@@ -45,9 +46,9 @@ const Fallacy: React.FC<IFallacyProps> = ({ title, description, quiz, examples, 
 
       <div className="flex flex-col lg:flex-row gap-4">
         <div
-          className="basis-1/2 p-4 shadow-md bg-white border"
+          className="basis-1/2 p-4 shadow-md bg-white border rounded"
           style={{
-            backgroundColor: typeColor,
+            borderColor: typeColorFaded,
             flexBasis: examples ? '50%' : '100%',
           }}
         >
@@ -55,7 +56,7 @@ const Fallacy: React.FC<IFallacyProps> = ({ title, description, quiz, examples, 
             { title }
           </h1>
           <div className="text-md mb-4 italic flex flex-row justify-between">
-            <div>
+            <div style={{ color: typeColor }}>
               { typeText }
             </div>
             <div className="text-sm">
@@ -63,7 +64,7 @@ const Fallacy: React.FC<IFallacyProps> = ({ title, description, quiz, examples, 
             </div>
           </div>
           <div
-            className="flex flex-col gap-4"
+            className="flex flex-col gap-8"
             dangerouslySetInnerHTML={{ __html: marked.parse(description) }}
           />
         </div>
@@ -73,10 +74,10 @@ const Fallacy: React.FC<IFallacyProps> = ({ title, description, quiz, examples, 
             {
               examples.map((example, index) => (
                 <div
-                key={index}
-                className="flex flex-col gap-4 border p-4 rounded bg-white shadow-md"
-                style={{ backgroundColor: typeColor }}
-                dangerouslySetInnerHTML={{ __html: marked.parse(example) }}
+                  key={index}
+                  className="flex flex-col gap-8 border p-4 rounded bg-white shadow-md"
+                  style={{ borderColor: typeColorFaded }}
+                  dangerouslySetInnerHTML={{ __html: marked.parse(example) }}
                 />
               ))
             }

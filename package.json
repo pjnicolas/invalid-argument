@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "pack": "node pack.js > ./src/blog.json",
-    "watch-pack": "nodemon --watch ./src/_fallacies --watch ./src/_biases --watch ./src/_gedankenexperiments --ext md --exec 'npm run pack'"
+    "pack-watch": "nodemon --watch ./src/_fallacies --watch ./src/_biases --watch ./src/_gedankenexperiments --ext md --exec 'npm run pack'"
   },
   "eslintConfig": {
     "extends": [
